@@ -8,7 +8,7 @@ describe("Home Page", () => {
     const heading = container.querySelector("h1");
 
     expect(heading).toBeTruthy();
-    expect(heading.textContent).toBe("Vehicles UI");
+    expect(heading.textContent).toBe("Preview Deployment check");
   });
 
   test("renders a link to the /vehicles page", () => {
